@@ -1,0 +1,13 @@
+#24331A05E2
+#This program counts even and odd numbers in a given range.
+n=int(input("enter the range: "))
+even_Count=0
+odd_Count=0
+for i in range(1,n+1):
+    if i%2==0 :
+        even_Count=even_Count+1      
+    else :
+        odd_Count=odd_Count+1
+print("No. of even numbers are :",even_Count)
+print("No.of odd numbers are :",odd_Count)
+    
